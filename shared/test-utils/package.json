@@ -1,0 +1,7 @@
+{
+  "name": "@js-forge/test-utils",
+  "version": "1.0.0",
+  "description": "Test utilities for JS Forge course",
+  "main": "runner.js",
+  "type": "commonjs"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "taskforge",
+  "version": "1.0.0",
+  "description": "JS Forge Capstone Project - Task Management System",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage",
+    "lighthouse": "lighthouse http://localhost:4173 --output=json"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "jsdom": "^23.0.0",
+    "lighthouse": "^11.0.0"
+  }
+}
